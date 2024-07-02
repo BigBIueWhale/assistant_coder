@@ -4,9 +4,9 @@
 
 * Continue.dev Visual Studio Code extension for chat and autocomplete
 
-* Ollama to run the model on GPU / CPU (tested with Nvidia GPU with 24 GB VRAM), and provide a network API to serve the Continue.dev client.
+* Ollama to run the model on GPU / CPU (tested with Nvidia RTX A5000 GPU with 24 GB VRAM, no integrated graphics card), and provide a network API to serve the Continue.dev client.
 
-* 4-bit quantized version of Codestral 22B by the Frensh company Mistral AI, 12 GB model.
+* 4-bit quantized (Q4_0) version of Codestral 22.2 billion parameters by the Frensh company Mistral AI, 22.2 GB model that can run fully on a GPU with 24GB of VRAM without any help from the CPU.
 
 * Tested on Windows 10 x86_64 Build 1903 operating system
 
