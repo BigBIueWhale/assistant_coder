@@ -16,6 +16,8 @@
 
 2. Disable VS Code auto update and disable auto update or extensions (you don't want your setup to suddenly break)
 
+![Disable Auto Update VS Code](./disable_auto_update_vscode.png)
+
 3. Any client will need the `Continue` VS Code extension for your operating system + CPU architecture. Use the pre-downloaded version `continue-win32-x64-0.8.40.vsix` which you can download from: https://github.com/continuedev/continue/releases/tag/v0.8.40-vscode (scroll all the way down to `Assets`. The .vsix file can then be installed globally as an extension in VS Code as if you installed the extension from the internet (Extensions tab -> ... -> `install from vsix`).
 
 4. Drag the newly added extension tab to the right like it asked you
