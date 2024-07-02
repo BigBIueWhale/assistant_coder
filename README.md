@@ -105,7 +105,7 @@ You should be able to process long context lengths within 10 seconds (like, an e
 
 If some of the model gets into the CPU, that hurts prompt ingestion speed 40x (not sure if this is true, it might sometimes just get stuck for now reason until restarting Ollama).
 
-Disable Ollama from running on startup (in Task Manager startup items), so that we can have our batch file run on user login instead.
+Disable `ollama.exe` from running on startup (in Windows Task Manager `startup items` tab), so that we can have our batch file run on user login instead.
 
 ![Run on startup](./run_on_startup.jpg)
 
