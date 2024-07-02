@@ -14,17 +14,19 @@
 
 1. You have to install VS Code that is either this version `VSCodeUserSetup-x64-1.90.2.exe` or newer on any client computer on the internal network that will use the AI services. You can download from https://update.code.visualstudio.com/1.90.2/win32-x64-user/stable which is a version of VS Code that supports the provided version of the `Continue`.
 
-2. Any client will need the `Continue` VS Code extension for your operating system + CPU architecture. Use the pre-downloaded version `continue-win32-x64-0.8.40.vsix` which you can download from: https://github.com/continuedev/continue/releases/tag/v0.8.40-vscode (scroll all the way down to `Assets`. The .vsix file can then be installed globally as an extension in VS Code as if you installed the extension from the internet (Extensions tab -> ... -> `install from vsix`).
+2. Disable VS Code auto update and disable auto update or extensions (you don't want your setup to suddenly break)
 
-3. Drag the newly added extension tab to the right like it asked you
+3. Any client will need the `Continue` VS Code extension for your operating system + CPU architecture. Use the pre-downloaded version `continue-win32-x64-0.8.40.vsix` which you can download from: https://github.com/continuedev/continue/releases/tag/v0.8.40-vscode (scroll all the way down to `Assets`. The .vsix file can then be installed globally as an extension in VS Code as if you installed the extension from the internet (Extensions tab -> ... -> `install from vsix`).
 
-4. In the welcome page: `Welcome to Continue` choose `Local models` and click `Continue`. Ignore the `Failed to connect` error that then keeps popping up
+4. Drag the newly added extension tab to the right like it asked you
 
-5. Click `Continue` again
+5. In the welcome page: `Welcome to Continue` choose `Local models` and click `Continue`. Ignore the `Failed to connect` error that then keeps popping up
 
-6. Click the `Configure` gear icon ⚙ in the bottom right of the `Continue` extension window. That will open a `config.json` for you to edit.
+6. Click `Continue` again
 
-7. Change it to look like this (replace 127.0.0.1 IP with the actual server's IP)
+7. Click the `Configure` gear icon ⚙ in the bottom right of the `Continue` extension window. That will open a `config.json` for you to edit.
+
+8. Change it to look like this (replace 127.0.0.1 IP with the actual server's IP)
 ```json
 {
   "models": [
@@ -46,7 +48,7 @@
 }
 ```
 
-8. Save the json file, and then reload VS Code window. Now you should be able to chat with `Continue` in its extension window (as long as the server is running on the internal network).
+9. Save the json file, and then reload VS Code window. Now you should be able to chat with `Continue` in its extension window (as long as the server is running on the internal network).
 
 ## Client Usage
 
