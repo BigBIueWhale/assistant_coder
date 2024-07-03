@@ -38,7 +38,7 @@
       "model": "codestral:22b",
       "apiBase": "http://127.0.0.1:11434/",
       "systemMessage": "Do exactly as the user says / means",
-      "contextLength": 30000
+      "contextLength": 32000
     }
   ],
   "tabAutocompleteModel": {
@@ -46,7 +46,7 @@
     "provider": "ollama",
     "model": "codestral:22b",
     "apiBase": "http://127.0.0.1:11434/",
-    "contextLength": 30000
+    "contextLength": 32000
   },
   "allowAnonymousTelemetry": false
 }
