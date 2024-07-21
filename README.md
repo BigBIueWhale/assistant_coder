@@ -41,13 +41,6 @@
       "contextLength": 32000
     }
   ],
-  "tabAutocompleteModel": {
-    "title": "Codestral",
-    "provider": "ollama",
-    "model": "codestral:22b",
-    "apiBase": "http://127.0.0.1:11434/",
-    "contextLength": 32000
-  },
   "allowAnonymousTelemetry": false
 }
 ```
