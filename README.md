@@ -41,6 +41,9 @@
       "contextLength": 32000
     }
   ],
+  "tabAutocompleteOptions": {
+    "disable": true
+  },
   "allowAnonymousTelemetry": false
 }
 ```
@@ -58,6 +61,9 @@ If you're using `La Plateforme` because you don't have enough VRAM (or because o
       "provider": "mistral"
     }
   ],
+  "tabAutocompleteOptions": {
+    "disable": true
+  },
   "allowAnonymousTelemetry": false
 }
 ```
