@@ -45,6 +45,23 @@
 }
 ```
 
+If you're using `La Plateforme` because you don't have enough VRAM (or because of license issues), this is the correct json configuration (replace with your real API key):
+
+```json
+{
+  "models": [
+    {
+      "title": "Codestral",
+      "model": "codestral-2405",
+      "contextLength": 32000,
+      "apiKey": "tVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "provider": "mistral"
+    }
+  ],
+  "allowAnonymousTelemetry": false
+}
+```
+
 9. Save the json file, and then reload VS Code window. Now you should be able to chat with `Continue` in its extension window (as long as the server is running on the internal network).
 
 ## Client Usage
