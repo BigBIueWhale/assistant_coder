@@ -55,7 +55,7 @@ If you're using `La Plateforme` because you don't have enough VRAM (or because o
   "models": [
     {
       "title": "Codestral",
-      "model": "codestral-2405",
+      "model": "codestral-latest",
       "contextLength": 32000,
       "apiKey": "tVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "provider": "mistral"
