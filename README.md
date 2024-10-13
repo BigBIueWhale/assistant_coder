@@ -6,7 +6,7 @@
 
 * Ollama to run the model on GPU / CPU (tested with Nvidia RTX A5000 GPU with 24 GB VRAM, no integrated graphics card), and provide a network API to serve the Continue.dev client.
 
-* 4-bit quantized (Q4_0) version of Codestral 22.2 billion parameters by the French🥐 company Mistral AI, 22.2 GB model that can run fully on a GPU with 24GB of VRAM without any help from the CPU.
+* 4-bit quantized (Q4_0) 11.7 gigabyte version of Codestral 22.2 billion parameters by the French🥐 company Mistral AI, that can run fully on a GPU with 24GB of VRAM without any help from the CPU.
 
 * Tested on Windows 10 x86_64 Build 1903 operating system
 
