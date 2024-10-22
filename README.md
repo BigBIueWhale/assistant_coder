@@ -129,7 +129,7 @@ Disable `ollama.exe` from running on startup (in Windows Task Manager `startup i
 
 ## Known Issues
 
-* Only 1 prompt at a single time (more an issue of insufficient hardware)
+* Only 1 prompt at a single time (more an issue of insufficient hardware)- That's what https://github.com/BigBIueWhale/ollama_load_balancer is for.
 
 * Sometimes gets loaded automatically into CPU when the GPU memory is too full
 
