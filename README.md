@@ -18,7 +18,7 @@
 
 ![Disable Auto Update VS Code](./disable_auto_update_vscode.png)
 
-3. Any client will need the `Continue` VS Code extension for your operating system + CPU architecture. Use the pre-downloaded version `continue-win32-x64-0.8.40.vsix` which you can download from: https://github.com/continuedev/continue/releases/tag/v0.8.40-vscode (scroll all the way down to `Assets`. The .vsix file can then be installed globally as an extension in VS Code as if you installed the extension from the internet (Extensions tab -> ... -> `install from vsix`).
+3. Any client will need the `Continue` VS Code extension for your operating system + CPU architecture. Use the file `continue-win32-x64-0.8.46.vsix` which you can download from: https://github.com/continuedev/continue/releases/tag/v0.8.46-vscode (scroll all the way down to `Assets`. The .vsix file can then be installed globally as an extension in VS Code as if you installed the extension from the internet (Extensions tab -> ... -> `install from vsix`).
 
 4. Drag the newly added extension tab to the right like it asked you
 
@@ -103,7 +103,7 @@ If you're using `La Plateforme` because you don't have enough VRAM (or because o
 9. Generate working UML syntax. Ask it to generate PlantUML (planttext.com) syntax
 
 ## Server Setup
-I installed `OllamaSetup.exe` for Windows on an online Windows 11 computer after I downloaded it from https://github.com/ollama/ollama/releases/tag/v0.1.48
+I installed `OllamaSetup.exe` for Windows on an online Windows 11 computer after I downloaded it from https://github.com/ollama/ollama/releases/tag/v0.3.13
 
 I ran the command: `ollama pull codestral:22b` to download https://ollama.com/library/codestral which is 12 GB in size (it's quantized). It downloads into `C:/Users/YOUR_USERNAME/.ollama` folder
 
